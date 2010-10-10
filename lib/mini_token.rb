@@ -1,4 +1,4 @@
-class MiniToken < Struct.new(:token_size, :token)
+class MiniToken
   TOKEN_SIZE = 6
   TOKEN_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890'
 
