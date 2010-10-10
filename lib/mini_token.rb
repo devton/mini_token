@@ -11,14 +11,7 @@ class MiniToken
 
       def generate
         yield if block_given?
-        token = []
-        @token_size.times { token << TOKEN_CHARACTERS[pointer] }
-        token.join
-      end
-
-      def pointer
-        srand
-        rand(MiniToken::TOKEN_CHARACTERS.size)
+        TOKEN_CHARACTERS.sample(@token_size).join
       end
   end
 end
