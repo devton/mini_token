@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mini_token}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Antonio Roberto Silva"]
@@ -17,13 +17,19 @@ Gem::Specification.new do |s|
      "README.rdoc"
   ]
   s.files = [
-    ".document",
+    ".bundle/config",
+     ".document",
      ".gitignore",
+     ".rspec",
+     ".rvmrc",
+     "Gemfile",
+     "Gemfile.lock",
      "LICENSE",
      "README.rdoc",
      "Rakefile",
      "VERSION",
      "lib/mini_token.rb",
+     "mini_token.gemspec",
      "test/helper.rb",
      "test/test_mini_token.rb"
   ]
