@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{Simple token generator}
     gem.description = %Q{Generate simple tokens for short url and other things}
     gem.email = "forevertonny@gmail.com"
-    gem.homepage = "http://github.com/dev_ton/mini_token"
+    gem.homepage = "http://github.com/devton/mini_token"
     gem.authors = ["Antonio Roberto Silva"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
