@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mini_token}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Antonio Roberto Silva"]
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
      "test/helper.rb",
      "test/test_mini_token.rb"
   ]
-  s.homepage = %q{http://github.com/dev_ton/mini_token}
+  s.homepage = %q{http://github.com/devton/mini_token}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
