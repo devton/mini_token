@@ -1,6 +1,6 @@
 class MiniToken
   TOKEN_SIZE = 6
-  TOKEN_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890'
+  TOKEN_CHARACTERS = (('A'..'Z').to_a+('a'..'z').to_a+('0'..'9').to_a)
 
   class << self
     def output(size = nil)

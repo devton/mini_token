@@ -7,8 +7,8 @@ describe MiniToken do
       assert_equal 6, MiniToken::TOKEN_SIZE
     end
 
-    it "Default Token Characters" do
-      assert_equal 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890', MiniToken::TOKEN_CHARACTERS
+    it "Default Token Characters with use join" do
+      assert_equal 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789', MiniToken::TOKEN_CHARACTERS.join
     end
   end
 
