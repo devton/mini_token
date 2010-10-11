@@ -18,6 +18,15 @@ Generate token with other size
 	MiniToken.output(9)
 	# => "2u27Jum8Y"
 
+Returning all tokens storaged
+	
+	MiniToken.all
+	# => [{:id=>1, :token=>"AcEi87"}, {:id=>2, :token=>"I8uEy2"}]
+
+For truncate the tokens storage
+	
+	MiniToken.truncate_tokens
+
 == Copyright
 
 Copyright (c) 2010 Antônio Roberto  Silva. See LICENSE for details.
