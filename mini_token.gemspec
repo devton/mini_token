@@ -27,6 +27,8 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "db/mini_token.db",
+     "db/mini_token_test.db",
      "lib/mini_token.rb",
      "mini_token.gemspec",
      "test/helper.rb",
