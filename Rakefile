@@ -10,6 +10,8 @@ begin
     gem.email = "forevertonny@gmail.com"
     gem.homepage = "http://github.com/devton/mini_token"
     gem.authors = ["Antonio Roberto Silva"]
+    gem.add_dependency 'sequel', '>= 3.16.0'
+    gem.add_dependency 'sqlite3-ruby', '>= 1.3.1'    
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
