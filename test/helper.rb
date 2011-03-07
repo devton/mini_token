@@ -12,6 +12,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'mini_token'
 Bundler.setup
 
+TOKEN_ENV = defined?(RAILS_ENV) ? RAILS_ENV : 'test'
 
 class Test::Unit::TestCase
 end

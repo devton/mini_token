@@ -1,6 +1,5 @@
 require 'helper'
 MiniTest::Unit.autorun
-TOKEN_ENV = 'test'
 
 describe MiniToken do
   describe "MiniToken Constants" do

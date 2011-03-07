@@ -1,5 +1,5 @@
 require 'sequel'
-TOKEN_ENV = 'production'
+TOKEN_ENV = defined?(RAILS_ENV) ? RAILS_ENV : 'production'
 
 class MiniToken < Struct.new(:db, :token)
   TOKEN_SIZE = 6
